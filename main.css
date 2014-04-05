@@ -85,6 +85,12 @@ input{
 	border-radius: 3px;
 }
 
+	.purchase span i{
+	  position: absolute;
+		right: 25px;
+		top: 9px;
+	}
+
 .complete{
 	text-decoration: line-through;;
 }
