@@ -1,0 +1,90 @@
+
+body{
+	margin: 0 auto;
+	background-color: #894d3b;
+	overflow:hidden;
+}
+
+.container{
+	width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 380px;
+}
+
+	.center{
+		border: 1px solid #272822;
+		border-radius: 6px;
+		margin: 0 auto;
+		margin-top: 10px;
+		background-color: #bcad88;
+		background-image: url('images/food.jpeg');
+		background-position: center;
+	}
+
+	.center .list{
+		margin: 0px 60px;
+		text-align: center;
+		background-color: #bcad88;
+		border-radius: 3px;
+	}
+
+h1{
+	color:#36373b;
+	font-size: 50px;
+	font-family: 'ABeeZee', sans-serif;
+	font-weight: bold;
+}
+
+.form{
+	text-align: center;
+	padding-top: 14px;
+	padding-bottom: 30px;
+
+}
+
+input{
+	width: 321px;
+	height: 35px;
+	border-radius: 8px;
+	border: 1px solid #b8af7f;
+	font-size: 18px;
+	padding-left: 10px;
+}
+	
+	input:focus{
+		border-radius: 8px;
+	}
+
+.bottom{
+	min-height: 500px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border: 1px solid #272822;
+	border-radius: 6px;
+	background-color: #ffebd8;
+}
+
+.food{
+	font-family: 'ABeeZee', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	list-style-type: none;
+	margin-top: 10px;
+	margin-left: 6px;
+	line-height: 1.5;
+	}
+
+.purchase{
+	margin-bottom: 8px;
+	position: relative;
+	background-color: #bcad88;
+	padding: 5px;
+	width: 50%;
+	margin-bottom: 3px;
+	border-radius: 3px;
+}
+
+.complete{
+	text-decoration: line-through;;
+}
