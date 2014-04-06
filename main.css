@@ -52,7 +52,7 @@ input{
 	padding-left: 10px;
 }
 	
-	input:focus{
+	form input:focus{
 		border-radius: 8px;
 	}
 
@@ -86,11 +86,15 @@ input{
 }
 
 	.purchase span i{
+		display: none;
 	  position: absolute;
 		right: 25px;
-		top: 9px;
+		top: 12px;
 	}
 
 .complete{
-	text-decoration: line-through;;
+	text-decoration: line-through;
+	background-color: #666;
+	opacity: 0.6;
+
 }
