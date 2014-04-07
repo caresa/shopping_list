@@ -65,7 +65,7 @@ input{
 	background-color: #ffebd8;
 }
 
-.food{
+#food{
 	font-family: 'ABeeZee', sans-serif;
 	font-weight: bold;
 	font-size: 25px;
@@ -83,6 +83,7 @@ input{
 	width: 50%;
 	margin-bottom: 3px;
 	border-radius: 3px;
+	cursor: pointer;
 }
 
 	.purchase span i{
@@ -96,5 +97,5 @@ input{
 	text-decoration: line-through;
 	background-color: #666;
 	opacity: 0.6;
-
+	
 }
